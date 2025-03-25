@@ -16,12 +16,14 @@ const Hero = () => {
                         Nikmati kelezatan ayam yang meresap hingga ke tulang. Dibuat dengan bahan berkualitas dan cita rasa autentik!
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                        <button className="bg-red-500 px-4 py-2 rounded-lg text-white hover:bg-red-600 hover:scale-105 transition-all">
+
+                        <a href="#menu" className="bg-red-500 px-4 py-2 rounded-lg text-white hover:bg-red-600 hover:scale-105 transition-all">
                             Lebih Lanjut 🚀
-                        </button>
-                        <button className="bg-white px-4 py-2 rounded-lg border border-red-500 text-red-500 hover:bg-white hover:scale-105 transition-all">
+                        </a>
+
+                        <a href="#contact" className="bg-white px-4 py-2 rounded-lg border border-red-500 text-red-500 hover:bg-white hover:scale-105 transition-all">
                             Hubungi Kami 📞
-                        </button>
+                        </a>
                     </div>
                 </div>
 
